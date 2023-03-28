@@ -1,0 +1,41 @@
+#foto{
+  height: 500px;
+  object-fit: cover;
+}
+
+.laterale {
+  height: 500px;
+  position: relative;
+}
+
+.laterale img{
+  height: 20%;
+  object-fit: cover;
+}
+
+.row > button{
+  width: 1.5rem;
+}
+
+button{
+  background-color: lightgray;
+  border: none;
+  border-radius: 50%;
+  color: gray;
+  position: absolute;
+  left: 83%;
+  z-index: 10;
+  transform: translate(-50%, 0);
+}
+
+#button-up{
+  top: 0%;
+}
+
+#button-down{
+  bottom: 0%;
+}
+
+.dark{
+  filter: grayscale(100%);
+}
